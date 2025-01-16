@@ -1,0 +1,14 @@
+In line number 43 of your output:
+The output should be:
+Library is at its maximum capacity!
+^
+But your output is: 
+0Library is at its maximum capacity!
+^
+
+Unmatched character details:
+The character in column 1 is supposed to be:
+  [L] ASCII code(76)
+but you printed
+  [0] ASCII code(48)
+

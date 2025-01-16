@@ -1,0 +1,32 @@
+/**************************************
+Student Name  : Khushi Abhay Bhandari
+Student ID    : 106774235
+Student Email : kabhandari@myseneca.ca
+Date          : 06-08-2024
+***************************************/
+
+From this workshop I learned about constructors, destructors and using current
+object (this). 
+
+All the classes provide us with some special features for allocating memory, instance 
+variables, privacy constructor and destructor.
+Constructors are special member functions that initializes the objects of class at real time.
+The construction is created automatically when we use our function i.e. when we create an object.
+There are mainly two types of constructors default and paramaterized constructor. Default
+constructor are with no argument and other with arguments. The constructor is called or executed
+automatically when a member function is called at the time of execution. A constructor do not return 
+anything.
+
+Destructor indicates the end of an object lifetime. Destructors are the special member function
+that we use to deallocate the dynamic memory of an object by which we can prevent memory leaks.
+The destructor object is also called automatically. We cannot overload or call a destructor 
+explicitly. The destructor have no parameters and also they do not return any values or function 
+or anything. However, destructors is the special object that invokes at the time of destruction.
+Destructor are always destroyed in reverse order of their creation as, an object which are created
+later may use the previously created object. Destructor deallocates the memory before going out
+of scope.
+
+Another concept is using a reference of a current object. ‘This’ keyword is used To refer to 
+the current object. The this keyword holds the address of the current object and we use 
+*this to refer the current object itself. However, this keyword is meaningless outside a member 
+function.

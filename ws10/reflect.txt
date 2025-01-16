@@ -1,0 +1,29 @@
+/*******************************************************************
+
+ Name        : Khushi Abhay Bhandari
+ Email       : kabhandari@myseneca.ca
+ Student ID  : 106774235
+ Date        : 08-06-2024
+
+I have done all the coding by myself and only copied the code
+that my professor provided to complete my workshops and assignments.
+
+ ******************************************************************/
+In this week I learned about templates, polymorphism separates interfaces from implementations, by usin the same logic across 
+unrelated data types. The seperation of interfaces and implementations are called as parametric or generic polymorphism.
+
+However, in C++ we use templates for doing this. I learned that by using templates in C++ we can enhance the readability, reusability and flexibility of our code. 
+
+The syntax for template is- template<Type identifier[,...]>,
+here template is the keyword, and we write an identifier(can be class name) then we define the argument which we will be using.
+
+A template is a basic structure that we use in c++ that work with any data type, making our code more flexible and reusable.
+
+Then I, also learned about constraints class-
+static_cast- which converts an expression to related type with basic tupr checking
+
+reinterpret_cast- which converts data to inrelated type
+
+const_cast-we can use to add or remove const qualifiers or values from our code
+
+dynamic_cast-which is also called as upcast whih converts pointers within class hiearchy, it connersion happens at runtime.

@@ -1,0 +1,373 @@
+Script started on Wed 03 Jul 2024 09:56:37 PM EDT
+==142098== Memcheck, a memory error detector
+==142098== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==142098== Using Valgrind-3.21.0 and LibVEX; rerun with -h for copyright info
+==142098== Command: ws.exe
+==142098== 
+==142098== Conditional jump or move depends on uninitialised value(s)
+==142098==    at 0x401237: seneca::TextFile::setEmpty() (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x4017B6: seneca::TextFile::TextFile(char const*, unsigned int) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401CC9: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==  Uninitialised value was created by a stack allocation
+==142098==    at 0x401CAC: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098== 
+==142098== Conditional jump or move depends on uninitialised value(s)
+==142098==    at 0x401299: seneca::TextFile::setEmpty() (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x4017B6: seneca::TextFile::TextFile(char const*, unsigned int) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401CC9: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==  Uninitialised value was created by a stack allocation
+==142098==    at 0x401CAC: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098== 
+==142098== Conditional jump or move depends on uninitialised value(s)
+==142098==    at 0x401237: seneca::TextFile::setEmpty() (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x4017B6: seneca::TextFile::TextFile(char const*, unsigned int) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401E48: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==  Uninitialised value was created by a stack allocation
+==142098==    at 0x401CAC: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098== 
+==142098== Conditional jump or move depends on uninitialised value(s)
+==142098==    at 0x401299: seneca::TextFile::setEmpty() (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x4017B6: seneca::TextFile::TextFile(char const*, unsigned int) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401E48: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==  Uninitialised value was created by a stack allocation
+==142098==    at 0x401CAC: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098== 
+Type echoes.txt and hit <ENTER>
+Enter the text file name: echoes.txt
+==142098== Conditional jump or move depends on uninitialised value(s)
+==142098==    at 0x4013F8: seneca::TextFile::setNoOfLines() (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401B2C: seneca::TextFile::getFile(std::istream&) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401C13: seneca::operator>>(std::istream&, seneca::TextFile&) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401E87: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==  Uninitialised value was created by a stack allocation
+==142098==    at 0x401CAC: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098== 
+==142098== Conditional jump or move depends on uninitialised value(s)
+==142098==    at 0x4014BD: seneca::TextFile::loadText() (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401B38: seneca::TextFile::getFile(std::istream&) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401C13: seneca::operator>>(std::istream&, seneca::TextFile&) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401E87: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==  Uninitialised value was created by a stack allocation
+==142098==    at 0x401CAC: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098== 
+==142098== Conditional jump or move depends on uninitialised value(s)
+==142098==    at 0x40153C: seneca::TextFile::loadText() (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401B38: seneca::TextFile::getFile(std::istream&) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401C13: seneca::operator>>(std::istream&, seneca::TextFile&) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401E87: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==  Uninitialised value was created by a stack allocation
+==142098==    at 0x401CAC: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098== 
+==142098== Conditional jump or move depends on uninitialised value(s)
+==142098==    at 0x4C2C9D9: operator new[](unsigned long) (vg_replace_malloc.c:714)
+==142098==    by 0x401556: seneca::TextFile::loadText() (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401B38: seneca::TextFile::getFile(std::istream&) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401C13: seneca::operator>>(std::istream&, seneca::TextFile&) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401E87: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==  Uninitialised value was created by a stack allocation
+==142098==    at 0x401CAC: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098== 
+==142098== Conditional jump or move depends on uninitialised value(s)
+==142098==    at 0x401583: seneca::TextFile::loadText() (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401B38: seneca::TextFile::getFile(std::istream&) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401C13: seneca::operator>>(std::istream&, seneca::TextFile&) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401E87: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==  Uninitialised value was created by a stack allocation
+==142098==    at 0x401CAC: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098== 
+echoes.txt
+==========
+Overhead the albatross hangs motionless upon the air
+And deep beneath the rolling waves
+In labyrinths of coral caves
+The echo of a distant time
+Comes willowing across the sand
+And everything is green and submarine
+
+And no one showed us to the land
+And no one knows the wheres or whys
+But something stirs and something tries
+And starts to climb towards the light
+
+Strangers passing in the street
+By chance two separate glances meet
+And I am you and what I see is me
+Hit ENTER to continue...
+And do I take you by the hand?
+And lead you through the land?
+And help me understand the best I can?
+
+And no one calls us to move on
+And no one forces down our eyes
+And no one speaks and no one tries
+And no one flies around the sun
+
+Cloudless everyday you fall upon my waking eyes
+Inviting and inciting me to rise
+And through the window in the wall
+Come streaming in on sunlight wings
+A million bright ambassadors of morning
+
+Hit ENTER to continue...
+And no one sings me lullabies
+And no one makes me close my eyes
+And so I throw the windows wide
+And call to you across the sky
+
+seamus.txt
+==========
+I was in the kitchen
+Seamus, that's the dog, was outside
+Well, I was in the kitchen
+Seamus, my old hound, was outside
+Well, the sun sinks slowly
+But my old hound just sat right down and cried
+
+==142098== Conditional jump or move depends on uninitialised value(s)
+==142098==    at 0x401237: seneca::TextFile::setEmpty() (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401819: seneca::TextFile::TextFile(seneca::TextFile const&) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401EE2: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==  Uninitialised value was created by a stack allocation
+==142098==    at 0x401CAC: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098== 
+==142098== Use of uninitialised value of size 8
+==142098==    at 0x40124B: seneca::TextFile::setEmpty() (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401819: seneca::TextFile::TextFile(seneca::TextFile const&) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401EE2: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==  Uninitialised value was created by a stack allocation
+==142098==    at 0x401CAC: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098== 
+==142098== Conditional jump or move depends on uninitialised value(s)
+==142098==    at 0x401260: seneca::TextFile::setEmpty() (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401819: seneca::TextFile::TextFile(seneca::TextFile const&) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401EE2: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==  Uninitialised value was created by a stack allocation
+==142098==    at 0x401CAC: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098== 
+==142098== Use of uninitialised value of size 8
+==142098==    at 0x401206: seneca::Line::~Line() (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x40126D: seneca::TextFile::setEmpty() (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401819: seneca::TextFile::TextFile(seneca::TextFile const&) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401EE2: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==  Uninitialised value was created by a stack allocation
+==142098==    at 0x401CAC: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098== 
+==142098== Invalid read of size 8
+==142098==    at 0x401206: seneca::Line::~Line() (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x40126D: seneca::TextFile::setEmpty() (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401819: seneca::TextFile::TextFile(seneca::TextFile const&) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401EE2: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==  Address 0x502728 is not stack'd, malloc'd or (recently) free'd
+==142098== 
+==142098== 
+==142098== Process terminating with default action of signal 11 (SIGSEGV)
+==142098==  Access not within mapped region at address 0x502728
+==142098==    at 0x401206: seneca::Line::~Line() (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x40126D: seneca::TextFile::setEmpty() (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401819: seneca::TextFile::TextFile(seneca::TextFile const&) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401EE2: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==  If you believe this happened as a result of a stack
+==142098==  overflow in your program's main thread (unlikely but
+==142098==  possible), you can try to increase the size of the
+==142098==  main thread stack using the --main-stacksize= flag.
+==142098==  The main thread stack size used in this run was 8388608.
+==142098== 
+==142098== HEAP SUMMARY:
+==142098==     in use at exit: 74,272 bytes in 45 blocks
+==142098==   total heap usage: 76 allocs, 31 frees, 145,536 bytes allocated
+==142098== 
+==142098== 11 bytes in 1 blocks are still reachable in loss record 1 of 7
+==142098==    at 0x4C2CA43: operator new[](unsigned long) (vg_replace_malloc.c:714)
+==142098==    by 0x401346: seneca::TextFile::setFilename(char const*, bool) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x4017D5: seneca::TextFile::TextFile(char const*, unsigned int) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401E48: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098== 
+==142098== 11 bytes in 1 blocks are still reachable in loss record 2 of 7
+==142098==    at 0x4C2CA43: operator new[](unsigned long) (vg_replace_malloc.c:714)
+==142098==    by 0x401346: seneca::TextFile::setFilename(char const*, bool) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401B20: seneca::TextFile::getFile(std::istream&) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401C13: seneca::operator>>(std::istream&, seneca::TextFile&) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401E87: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098== 
+==142098== 56 bytes in 1 blocks are still reachable in loss record 3 of 7
+==142098==    at 0x4C2CA43: operator new[](unsigned long) (vg_replace_malloc.c:714)
+==142098==    by 0x401556: seneca::TextFile::loadText() (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x4017ED: seneca::TextFile::TextFile(char const*, unsigned int) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401E48: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098== 
+==142098== 192 bytes in 6 blocks are still reachable in loss record 4 of 7
+==142098==    at 0x4C2CA43: operator new[](unsigned long) (vg_replace_malloc.c:714)
+==142098==    by 0x4011D2: seneca::Line::operator=(char const*) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x4015F9: seneca::TextFile::loadText() (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x4017ED: seneca::TextFile::TextFile(char const*, unsigned int) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401E48: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098== 
+==142098== 280 bytes in 1 blocks are possibly lost in loss record 5 of 7
+==142098==    at 0x4C2CA43: operator new[](unsigned long) (vg_replace_malloc.c:714)
+==142098==    by 0x401556: seneca::TextFile::loadText() (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401B38: seneca::TextFile::getFile(std::istream&) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401C13: seneca::operator>>(std::istream&, seneca::TextFile&) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401E87: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098== 
+==142098== 1,018 bytes in 34 blocks are possibly lost in loss record 6 of 7
+==142098==    at 0x4C2CA43: operator new[](unsigned long) (vg_replace_malloc.c:714)
+==142098==    by 0x4011D2: seneca::Line::operator=(char const*) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x4015F9: seneca::TextFile::loadText() (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401B38: seneca::TextFile::getFile(std::istream&) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401C13: seneca::operator>>(std::istream&, seneca::TextFile&) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401E87: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098== 
+==142098== 72,704 bytes in 1 blocks are still reachable in loss record 7 of 7
+==142098==    at 0x4C2B15C: malloc (vg_replace_malloc.c:431)
+==142098==    by 0x4EDD3E5: pool (eh_alloc.cc:123)
+==142098==    by 0x4EDD3E5: __static_initialization_and_destruction_0 (eh_alloc.cc:262)
+==142098==    by 0x4EDD3E5: _GLOBAL__sub_I_eh_alloc.cc (eh_alloc.cc:338)
+==142098==    by 0x400F9C2: _dl_init (in /usr/lib64/ld-2.17.so)
+==142098==    by 0x4001179: ??? (in /usr/lib64/ld-2.17.so)
+==142098== 
+==142098== LEAK SUMMARY:
+==142098==    definitely lost: 0 bytes in 0 blocks
+==142098==    indirectly lost: 0 bytes in 0 blocks
+==142098==      possibly lost: 1,298 bytes in 35 blocks
+==142098==    still reachable: 72,974 bytes in 10 blocks
+==142098==                       of which reachable via heuristic:
+==142098==                         newarray           : 56 bytes in 1 blocks
+==142098==         suppressed: 0 bytes in 0 blocks
+==142098== 
+==142098== ERROR SUMMARY: 50 errors from 16 contexts (suppressed: 0 from 0)
+==142098== 
+==142098== 1 errors in context 1 of 16:
+==142098== Invalid read of size 8
+==142098==    at 0x401206: seneca::Line::~Line() (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x40126D: seneca::TextFile::setEmpty() (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401819: seneca::TextFile::TextFile(seneca::TextFile const&) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401EE2: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==  Address 0x502728 is not stack'd, malloc'd or (recently) free'd
+==142098== 
+==142098== 
+==142098== 1 errors in context 2 of 16:
+==142098== Use of uninitialised value of size 8
+==142098==    at 0x401206: seneca::Line::~Line() (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x40126D: seneca::TextFile::setEmpty() (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401819: seneca::TextFile::TextFile(seneca::TextFile const&) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401EE2: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==  Uninitialised value was created by a stack allocation
+==142098==    at 0x401CAC: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098== 
+==142098== 
+==142098== 1 errors in context 3 of 16:
+==142098== Conditional jump or move depends on uninitialised value(s)
+==142098==    at 0x401260: seneca::TextFile::setEmpty() (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401819: seneca::TextFile::TextFile(seneca::TextFile const&) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401EE2: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==  Uninitialised value was created by a stack allocation
+==142098==    at 0x401CAC: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098== 
+==142098== 
+==142098== 1 errors in context 4 of 16:
+==142098== Use of uninitialised value of size 8
+==142098==    at 0x40124B: seneca::TextFile::setEmpty() (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401819: seneca::TextFile::TextFile(seneca::TextFile const&) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401EE2: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==  Uninitialised value was created by a stack allocation
+==142098==    at 0x401CAC: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098== 
+==142098== 
+==142098== 1 errors in context 5 of 16:
+==142098== Conditional jump or move depends on uninitialised value(s)
+==142098==    at 0x401237: seneca::TextFile::setEmpty() (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401819: seneca::TextFile::TextFile(seneca::TextFile const&) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401EE2: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==  Uninitialised value was created by a stack allocation
+==142098==    at 0x401CAC: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098== 
+==142098== 
+==142098== 1 errors in context 6 of 16:
+==142098== Conditional jump or move depends on uninitialised value(s)
+==142098==    at 0x4C2C9D9: operator new[](unsigned long) (vg_replace_malloc.c:714)
+==142098==    by 0x401556: seneca::TextFile::loadText() (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401B38: seneca::TextFile::getFile(std::istream&) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401C13: seneca::operator>>(std::istream&, seneca::TextFile&) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401E87: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==  Uninitialised value was created by a stack allocation
+==142098==    at 0x401CAC: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098== 
+==142098== 
+==142098== 1 errors in context 7 of 16:
+==142098== Conditional jump or move depends on uninitialised value(s)
+==142098==    at 0x40153C: seneca::TextFile::loadText() (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401B38: seneca::TextFile::getFile(std::istream&) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401C13: seneca::operator>>(std::istream&, seneca::TextFile&) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401E87: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==  Uninitialised value was created by a stack allocation
+==142098==    at 0x401CAC: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098== 
+==142098== 
+==142098== 1 errors in context 8 of 16:
+==142098== Conditional jump or move depends on uninitialised value(s)
+==142098==    at 0x4014BD: seneca::TextFile::loadText() (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401B38: seneca::TextFile::getFile(std::istream&) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401C13: seneca::operator>>(std::istream&, seneca::TextFile&) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401E87: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==  Uninitialised value was created by a stack allocation
+==142098==    at 0x401CAC: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098== 
+==142098== 
+==142098== 1 errors in context 9 of 16:
+==142098== Conditional jump or move depends on uninitialised value(s)
+==142098==    at 0x4013F8: seneca::TextFile::setNoOfLines() (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401B2C: seneca::TextFile::getFile(std::istream&) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401C13: seneca::operator>>(std::istream&, seneca::TextFile&) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401E87: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==  Uninitialised value was created by a stack allocation
+==142098==    at 0x401CAC: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098== 
+==142098== 
+==142098== 1 errors in context 10 of 16:
+==142098== Conditional jump or move depends on uninitialised value(s)
+==142098==    at 0x401299: seneca::TextFile::setEmpty() (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x4017B6: seneca::TextFile::TextFile(char const*, unsigned int) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401E48: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==  Uninitialised value was created by a stack allocation
+==142098==    at 0x401CAC: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098== 
+==142098== 
+==142098== 1 errors in context 11 of 16:
+==142098== Conditional jump or move depends on uninitialised value(s)
+==142098==    at 0x401237: seneca::TextFile::setEmpty() (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x4017B6: seneca::TextFile::TextFile(char const*, unsigned int) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401E48: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==  Uninitialised value was created by a stack allocation
+==142098==    at 0x401CAC: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098== 
+==142098== 
+==142098== 1 errors in context 12 of 16:
+==142098== Conditional jump or move depends on uninitialised value(s)
+==142098==    at 0x401299: seneca::TextFile::setEmpty() (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x4017B6: seneca::TextFile::TextFile(char const*, unsigned int) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401CC9: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==  Uninitialised value was created by a stack allocation
+==142098==    at 0x401CAC: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098== 
+==142098== 
+==142098== 1 errors in context 13 of 16:
+==142098== Conditional jump or move depends on uninitialised value(s)
+==142098==    at 0x401237: seneca::TextFile::setEmpty() (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x4017B6: seneca::TextFile::TextFile(char const*, unsigned int) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401CC9: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==  Uninitialised value was created by a stack allocation
+==142098==    at 0x401CAC: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098== 
+==142098== 
+==142098== 35 errors in context 14 of 16:
+==142098== Conditional jump or move depends on uninitialised value(s)
+==142098==    at 0x401583: seneca::TextFile::loadText() (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401B38: seneca::TextFile::getFile(std::istream&) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401C13: seneca::operator>>(std::istream&, seneca::TextFile&) (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==    by 0x401E87: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098==  Uninitialised value was created by a stack allocation
+==142098==    at 0x401CAC: main (in /home/kabhandari/oop/ws6/ws.exe)
+==142098== 
+==142098== ERROR SUMMARY: 50 errors from 16 contexts (suppressed: 0 from 0)
+
+Script done on Wed 03 Jul 2024 09:56:49 PM EDT

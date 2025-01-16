@@ -1,0 +1,129 @@
+Script started on Wed 03 Jul 2024 11:37:19 PM EDT
+==154253== Memcheck, a memory error detector
+==154253== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==154253== Using Valgrind-3.21.0 and LibVEX; rerun with -h for copyright info
+==154253== Command: ws.exe
+==154253== 
+Type echoes.txt and hit <ENTER>
+Enter the text file name: echoes.txt
+echoes.txt
+==========
+Overhead the albatross hangs motionless upon the air
+And deep beneath the rolling waves
+In labyrinths of coral caves
+The echo of a distant time
+Comes willowing across the sand
+And everything is green and submarine
+
+And no one showed us to the land
+And no one knows the wheres or whys
+But something stirs and something tries
+And starts to climb towards the light
+
+Strangers passing in the street
+By chance two separate glances meet
+And I am you and what I see is me
+Hit ENTER to continue...
+And do I take you by the hand?
+And lead you through the land?
+And help me understand the best I can?
+
+And no one calls us to move on
+And no one forces down our eyes
+And no one speaks and no one tries
+And no one flies around the sun
+
+Cloudless everyday you fall upon my waking eyes
+Inviting and inciting me to rise
+And through the window in the wall
+Come streaming in on sunlight wings
+A million bright ambassadors of morning
+
+Hit ENTER to continue...
+And no one sings me lullabies
+And no one makes me close my eyes
+And so I throw the windows wide
+And call to you across the sky
+
+seamus.txt
+==========
+I was in the kitchen
+Seamus, that's the dog, was outside
+Well, I was in the kitchen
+Seamus, my old hound, was outside
+Well, the sun sinks slowly
+But my old hound just sat right down and cried
+
+Nothing to print!
+
+-------------------------------------------------------------
+Nothing to print!
+
+-------------------------------------------------------------
+
+============================================================
+DUMP---------------------------------------------------------
+>>>echoes.txt<<<
+Overhead the albatross hangs motionless upon the air
+And deep beneath the rolling waves
+In labyrinths of coral caves
+The echo of a distant time
+Comes willowing across the sand
+And everything is green and submarine
+
+And no one showed us to the land
+And no one knows the wheres or whys
+But something stirs and something tries
+And starts to climb towards the light
+
+Strangers passing in the street
+By chance two separate glances meet
+And I am you and what I see is me
+And do I take you by the hand?
+And lead you through the land?
+And help me understand the best I can?
+
+And no one calls us to move on
+And no one forces down our eyes
+And no one speaks and no one tries
+And no one flies around the sun
+
+Cloudless everyday you fall upon my waking eyes
+Inviting and inciting me to rise
+And through the window in the wall
+Come streaming in on sunlight wings
+A million bright ambassadors of morning
+
+And no one sings me lullabies
+And no one makes me close my eyes
+And so I throw the windows wide
+And call to you across the sky
+-------------------------------------------------------------
+DUMP---------------------------------------------------------
+>>>seamus.txt<<<
+I was in the kitchen
+Seamus, that's the dog, was outside
+Well, I was in the kitchen
+Seamus, my old hound, was outside
+Well, the sun sinks slowly
+But my old hound just sat right down and cried
+-------------------------------------------------------------
+DUMP---------------------------------------------------------
+>>>C_echoes.txt<<<
+
+-------------------------------------------------------------
+DUMP---------------------------------------------------------
+>>>C_seamus.txt<<<
+
+-------------------------------------------------------------
+**
+==154253== 
+==154253== HEAP SUMMARY:
+==154253==     in use at exit: 0 bytes in 0 blocks
+==154253==   total heap usage: 103 allocs, 103 frees, 233,319 bytes allocated
+==154253== 
+==154253== All heap blocks were freed -- no leaks are possible
+==154253== 
+==154253== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Wed 03 Jul 2024 11:37:31 PM EDT

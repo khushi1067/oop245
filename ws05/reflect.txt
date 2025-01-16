@@ -1,0 +1,33 @@
+/********************************************************
+Name       : Khushi Abhay Bhandari
+Email      : kabhandari@myseneca.ca
+Srudent ID : 106774235
+Date       : 05-27-2024
+
+
+I have done all the coding by myself and only copied the
+code that my professor provided to complete my workshops
+and assignments.
+
+********************************************************/
+In this following workshop, I learned how we can overload the operators, 
+casting the operators and using helper functions.
+
+Helper functions are also called global functions, these global functions
+can use members of both private or public data members and also member
+functions. The helper functions also refer to the class that 
+supports through explicit parameters. Helper operators are the
+operators that do not change the value of their operands.
+
+The main purpose of helper functions is to implement input and output 
+operations. We also use temporary objects to overload the operators 
+to easily localize validation logic.
+
+Furthermore, I learned that we can only overload some operators and
+we cannot overload all the operators. 
+
+
+Cast operators explicitly change one type into another, such as converting an
+integer to a float. We can write functions in your class to handle these conversions.
+Using the explicit keyword ensures that these changes happen if we want to.
+

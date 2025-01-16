@@ -1,0 +1,10 @@
+From this workshop, I learned many different topics, some of them are from the previous semester and some are from this semester.
+I learned many concepts such as how to address complexity in the code, for instance how we can make our code.
+more readable, less complex, and easy to maintain. In this workshop, I divided all the parts of the code.
+into different understandable parts, which is known as modularity. We divide different segments of the code into
+various modules like - .h (header file), and .cpp file. In the code, all small functions are bifurcated under.
+one single main function. like all the file functions are addressed in a different file all header file functions
+are in a different file as well. The header file contains the function INITIALIZATION and .cpp file.
+ which Contains its definition of all the functions which are declared. Furthermore, I learned about namespaces, modularity,
+functions, functions declaration, standard library, and other c libraries that we can use. By evaluating the code
+I also learn some concepts of debugging the code.

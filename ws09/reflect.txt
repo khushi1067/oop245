@@ -1,0 +1,14 @@
+In the following workshop, I learned the concept of dynamic memory 
+allocation, about constructor, destructor, and about copy assignment, i.e. 
+rule of three. I learned how to allocate, dealocate and how to use 
+copy assignment in the code. The rule of three ensures that the objects which
+we create are assigned properly, destructed properly and assigned to 
+different objects properly. I learned that before using copy 
+assignment we should so some initial checks. The checks include -
+first check for self assignment, if the resource is assigned to 
+itself or not. Then it is important to delete the previously 
+allocated dynamic memory. And at the end we should execute deep
+copy.
+
+ The other thing I learned some part of file stream library.
+ I learned how to open a file, and how to write in a file.

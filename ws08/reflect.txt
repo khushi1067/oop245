@@ -1,0 +1,19 @@
+In workshop 8, I learned essential concept of object oriented terminilogy,
+about virtual functions and abstract classes. 
+
+A virtual function enables derived classes to override it, where as 
+pure virtual function is a member function which we declare without 
+writing its implementation.
+Whereas a abstract base class contains or inherits at least one pure 
+virtual function. If in a class there is at least 1 pure virtual function
+then that class becomes an abstract class.
+And a class containing all functions as pure virtual function then that
+class becomes a interface.
+
+Virtual functions can be written without any implementation, as this acts 
+as a interface. 
+
+By having virtual functions and abstract classes in our code can
+enhance the code. It provides code reusability and also promotes 
+low coupling between the functions. I.e. functions do not depends 
+on other functions. It decreases function dependency.

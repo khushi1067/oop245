@@ -1,0 +1,34 @@
+/********************************************************
+Name       : Khushi Abhay Bhandari
+Email      : kabhandari@myseneca.ca
+Srudent ID : 106774235
+Date       : 05-27-2024
+
+
+I have done all the coding by myself and only copied the
+code that my professor provided to complete my workshops
+and assignments.
+
+********************************************************/
+
+In this assignment, I learned about member function and privacy. Encapsulation
+ is essential in object-oriented programming. By using encapsulation
+we can hide or protect our data. By using this method we can restrict direct access
+to our data. Furthermore, the Member functions communicate between the code and object
+ in a class. We use member functions to access or change data and they are classified 
+into three categories - Queries, Modifiers, and special. With queries we report the state 
+of the object, with modifiers we change the state of the object and with special we create, assign,
+or destroy the object. Then we use a '.' operator to call a member function. However,
+the member function has some rules called a scope, global which can be accessed by all within
+the code. Then we have accessibility labels - Private and public. With private it prohibits
+external access i.e. we can access them in a certain scope only while by using public
+we can access them throughout our code. Utilizing the keyword class means that it is
+default set as private. We mostly use class keywords instead of struct keywords in OOP.
+As we cannot use them directly we use functions like get and set which are also called as 
+getters and setters to access or use data.
+
+Then I learned how we can design by some functions like width(), fill(), setf(),
+unsetf() and precision(). With the width() function, we can set the field to a specific integer 
+values, with fill we can add padding, setf() and insetsf() we can set or unset formatting
+flag and with precision() we can set decimal precision, precisions can be general, scientific and 
+fixed formats.

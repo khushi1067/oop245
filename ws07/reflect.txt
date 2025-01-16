@@ -1,0 +1,9 @@
+In workshop 7, I learned some interesting and important concepts of object-oriented programming. 
+In inheritance, I learned how a program can inherit properties and concepts of its upper or superclass. The parent class is also called a superclass or parent class. And the class that inherits some properties is also known as the Derived class or Subclass, Heir Class, or Child Class.
+
+syntax for inheritance is - class B: public A. 
+This approach reduces code duplication, enhances readability, and improves efficiency. 
+
+Derived classes inherit the entire structure of their base classes, and the `protected` access modifier allows member functions of derived classes to access protected and public members of the base class.
+
+Constructors and destructors in an inheritance hierarchy execute in a specific order, and keeping data members private while providing protected access via queries is considered good design practice.

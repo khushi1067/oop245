@@ -1,0 +1,23 @@
+/*/////////////////////////////////
+Name - Khushi Abhay Bhandari
+Email - kabhandari@myseneca.ca
+Student ID - 106774235
+Date - 05-25-2024
+*/////////////////////////////////
+
+Throughout this workshop, I learned about dynamic memory allocation and 
+management. I gained a some understanding of how to allocate, utilize, 
+and deallocate memory dynamically. The main concept was the utilization
+of memory and using new keyword to allocate memory and the delete keyword to
+ deallocate it. As proper deallocation is very important to prevent 
+ memory leaks, which are significant errors that can arise if memory 
+ is not deallocated properly.
+
+ During the project, I encountered some challenges, mostly with the 
+ load function, which was use to data from a file. I faced difficulties 
+ when the function indicated an error that the file data was corrupted,
+  which was later tracked that I accidently made changes to the file. 
+  Additionally, I encountered issues with garbage values being 
+  displayed due to formatting mistakes. Furthermore, I encountered
+   a compile-time error when attempting to submit the code, which 
+   was caused as I was passing arguments to a function which was not required.

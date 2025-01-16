@@ -1,0 +1,14 @@
+In line number 15 of your output:
+The output should be:
+Searching for Tesla cars: 
+^
+But your output is: 
+8:  
+^
+
+Unmatched character details:
+The character in column 1 is supposed to be:
+  [S] ASCII code(83)
+but you printed
+  [8] ASCII code(56)
+
